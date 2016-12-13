@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0"
+    },
+    "Amazon.Lambda.Core": "1.0.0*",
+    "Amazon.Lambda.Serialization.Json": "1.0.1",
+    "Amazon.Lambda.Tools": {
+      "type": "build",
+      "version": "1.0.2-preview1"
+    },
+    "Newtonsoft.Json": "9.0.2-beta1",
+    "Slight.Alexa.Core": "1.0.8-beta"  },
+
+  "tools": {
+    "Amazon.Lambda.Tools" : "1.0.2-preview1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}

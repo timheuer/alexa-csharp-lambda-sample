@@ -1,0 +1,3 @@
+AddIntent what is {firstnum} plus {secondnum}
+AddIntent add {firstnum} and {secondnum}
+AddIntent tell me the answer to {firstnum} and {secondnum}
