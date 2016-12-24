@@ -55,7 +55,7 @@ namespace NumberFunctions
             skillResponse.Response = response;
             skillResponse.Version = "1.0";
 
-            return JsonConvert.SerializeObject(skillResponse);
+            return skillResponse;
         }
     }
 }
