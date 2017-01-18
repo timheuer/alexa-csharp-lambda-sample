@@ -17,7 +17,7 @@ namespace NumberFunctions
         /// <param name="input"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public string FunctionHandler(SkillRequest input, ILambdaContext context)
+        public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
             Response response;
             IOutputSpeech innerResponse = null;
